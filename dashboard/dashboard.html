@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin_panel</title>
+    <link rel="stylesheet" href="dashboard.css">
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="menu_icon">
+            <span></span>
+        </div>
+        <h3 class="item2">Dashboard</h3>
+    </header>
+    <nav class="menu_body">
+        <h3 class="item">Company</h3>
+        <ul class="menu">
+            <li>
+                <a class="bg-img link-dashboard" href="../dashboard/dashboard.html"><span>Dashboard</span></a>
+            </li>
+            <li>
+                <a class="bg-img link-user" href="../user_profile/user_profile.html"><span>User Profile</span></a>
+            </li>
+            <li>
+                <a class="bg-img link-maps" href="../maps/maps.html"><span>Maps</span></a>
+            </li>
+            <li>
+                <a class="bg-img link-notifi" href="../notifications/notifications.html"><span>Notifications</span></a>
+            </li>
+            <li>
+                <a class="bg-img link-support" href="../support/support.html"><span>Support</span></a>
+            </li>
+        </ul>
+    </nav>
+    <main>
+        <div class="main-info">
+            <div class="conteiner-info">
+                <div class="info blok">
+                    <div class="icon green-icon">
+                        <img class="info-icon" src="images/data_white.svg" alt="DW">
+                    </div>
+                    <div class="info-text">
+                            <p>Used Spase</p>
+                            <h1>49/50 GB</h1>
+                            <hr>
+                        <a href="#"><img src="images/alert.png" alt="">Get more space...</a>
+                    </div>
+                </div>
+                <div class="info blok">
+                    <div class="icon yellow-icon">
+                        <img class="info-icon" src="images/shop_white.svg" alt="SW">
+                    </div>
+                    <div class="info-text">
+                        <p>Revenue</p>
+                        <h1>$ 34,245</h1>
+                        <hr>
+                        <a href="#"><img src="images/calendar.png" alt="">Last 24 Hours</a>
+                    </div>
+                </div>
+            </div>
+            <div class="conteiner-info">
+                <div class="info blok">
+                    <div class="icon blue-icon">
+                        <img class="info-icon" src="images/tag_white.svg" alt="TW">
+                    </div>
+                    <div class="info-text">
+                        <p>Fixed Issues</p>
+                        <h1>75</h1>
+                        <hr>
+                        <a href="#"><img src="images/down.png" alt="">Tracked from Github</a>
+                    </div>
+                </div>
+                <div class="info blok">
+                    <div class="icon red-icon">
+                        <img class="info-icon" src="images/data_white.svg" alt="DW">
+                    </div>
+                    <div class="info-text">
+                        <p>Followers</p>
+                        <h1>+ 245</h1>
+                        <hr>
+                        <a href="#"><img src="images/time.png" alt="">Just updated</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="main-graph">
+            <div class="graph blok">
+                <div class="icon green-icon">
+                    <img class="graph-icon" src="images/graphics.svg" alt="graph">
+                </div>
+                <div class="graph-text">
+                    <h3>Daily Sales</h3>
+                    <p>55% increase in today sales</p>
+                    <hr>
+                    <p><img src="images/time.png" alt=""> updated 4 minutes ago</p>
+                </div>
+            </div>
+            <div class="graph blok">
+                <div class="icon yellow-icon">
+                    <img class="graph-icon" src="images/graphics.svg" alt="graph">
+                </div>
+                <div class="graph-text">
+                    <h3>Email Subscriptions</h3>
+                    <p>Last Campaign Performance</p>
+                    <hr>
+                    <p><img src="images/time.png" alt=""> campaign sent 2 days ago</p>
+                </div>
+            </div>
+            <div class="graph blok">
+                <div class="icon blue-icon">
+                    <img class="graph-icon" src="images/graphics.svg" alt="graph">
+                </div>
+                <div class="graph-text">
+                    <h3>Completed Tasks</h3>
+                    <p>Last Campaign Performance</p>
+                    <hr>
+                    <p><img src="images/time.png" alt=""> campaign event 2 days ago</p>
+                </div>
+            </div>
+        </div>
+        <div class="main-lists">
+            <div class="task blok">
+                <div class="task-par icon yellow-icon">
+                    <div>
+                        <p>Task:</p>
+                    </div>
+                    <div class="link"><a href="#"><img src="images/bug.svg" alt="">Bugs</a></div>
+                    <div class="link"><a href="#"><img src="images/web.svg" alt="">Website</a></div>
+                    <div class="link"><a href="#"><img src="images/cloud.svg" alt="">Server</a></div>
+                </div>
+                <form action="/search">   
+                    <div class="task-text">
+                        <div class="text-row">
+                            <label>
+                                <input type="checkbox" name="task" value="ID" checked>Sign contract for "What are conference organizers afraid of"?
+                            </label>
+                            <div class="text-icon">
+                                <input type="submit" value="" name="correct" class="button_cor">
+                                <input type="submit" value="" name="delete" class="button_del">
+                            </div>
+                        </div>
+                        <hr>
+                        <div class="text-row">
+                            <label class="text-label">
+                                <input type="checkbox" name="task" value="ID">Lines From Great Russian Literature? Or E-mails From My Boss?
+                            </label>
+                            <div class="text-icon">
+                                <input type="submit" value="" name="correct" class="button_cor">
+                                <input type="submit" value="" name="delete" class="button_del">
+                            </div>
+                        </div>
+                        <hr>
+                        <div class="text-row">
+                            <label>
+                                <input type="checkbox" name="task" value="ID">Sing contract for “What are conference organizers afraid of?
+                            </label>
+                            <div class="text-icon">
+                                <input type="submit" value="" name="correct" class="button_cor">
+                                <input type="submit" value="" name="delete" class="button_del">
+                            </div>
+                        </div>
+                        <hr>
+                        <div class="text-row">
+                            <label>
+                                <input type="checkbox" name="task" value="ID" checked>Sign contract for “What are conference organizers afraid of?
+                            </label>
+                            <div class="text-icon">
+                                <input type="submit" value="" name="correct" class="button_cor">
+                                <input type="submit" value="" name="delete" class="button_del">
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div class="employees blok">
+                <div class="employees-par icon blue-icon">
+                    <h4>Employees Stats</h4>
+                    <p>New employees on 19th September, 2019</p>
+                </div>
+                <div class="employees-text">
+                    <table>
+                        <tr>
+                            <th>ID</th>
+                            <th>Name</th>
+                            <th>Salary</th>
+                            <th>Country</th>
+                        </tr>
+                        <tr>
+                            <td>1</td>
+                            <td>Dakota Rice</td>
+                            <td>$36.738</td>
+                            <td>Niger</td>
+                        </tr>
+                        <tr>
+                            <td>1</td>
+                            <td>Dakota Rice</td>
+                            <td>$36.738</td>
+                            <td>Niger</td>
+                        </tr>
+                        <tr>
+                            <td>1</td>
+                            <td>Dakota Rice</td>
+                            <td>$36.738</td>
+                            <td>Niger</td>
+                        </tr>
+                        <tr>
+                            <td>1</td>
+                            <td>Dakota Rice</td>
+                            <td>$36.738</td>
+                            <td>Niger</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <ul class="footer-menu">
+            <li>
+                <a href="#">about</a>
+            </li>
+            <li>
+                <a href="#">blog</a>
+            </li>
+            <li>
+                <a href="#">licenses</a>
+            </li>
+        </ul>
+        <div class="footer-year">
+            <p>2019 - made with love</p>
+        </div>
+    </footer>
+   
+</body>
+</html>

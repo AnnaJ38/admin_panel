@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin_panel</title>
+    <link rel="stylesheet" href="user_profile.css">
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="menu_icon">
+            <span></span>
+        </div>
+        <h3 class="item2">User Profile</h3>
+    </header>
+    <nav class="menu_body">
+        <h3 class="item">Company</h3>
+        <ul class="menu">
+            <li>
+                <a class="bg-img link-dashboard" href="../dashboard/dashboard.html"><span>Dashboard</span></a>
+            </li>
+            <li>
+                <a class="bg-img link-user" href="../user_profile/user_profile.html"><span>User Profile</span></a>
+            </li>
+            <li>
+                <a class="bg-img link-maps" href="../maps/maps.html"><span>Maps</span></a>
+            </li>
+            <li>
+                <a class="bg-img link-notifi" href="../notifications/notifications.html"><span>Notifications</span></a>
+            </li>
+            <li>
+                <a class="bg-img link-support" href="../support/support.html"><span>Support</span></a>
+            </li>
+        </ul>
+    </nav>
+    <main>
+        <div class="conteiner">
+            <div class="profile">
+                <div class="title">
+                    <h4>Edit Profile</h4>
+                    <p>Complete your profile</p>
+                </div>
+                <div class="form">
+                    <form action="/search">
+                        <div class="row">
+                            <div class="text-field text-field_first">
+                                <label class="text-field_label" for="company">Company</label>
+                                <input class="text-field_input" type="text" id="company">
+                            </div>
+                            <div class="text-field text-field_first">
+                                <label class="text-field_label" for="username">Username</label>
+                                <input class="text-field_input" type="text" id="username">
+                            </div>
+                            <div class="text-field text-field_first">
+                                <label class="text-field_label" for="email">Email address</label>
+                                <input class="text-field_input" type="email" id="email">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="text-field text-field_second">
+                                <label class="text-field_label" for="fistName">Fist Name</label>
+                                <input class="text-field_input" type="text" id="fistName">
+                            </div>
+                            <div class="text-field text-field_second">
+                                <label class="text-field_label" for="lastName">Last Name</label>
+                                <input class="text-field_input" type="text" id="lastName">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="text-field text-field_third">
+                                <label class="text-field_label" for="adress">Adress</label>
+                                <input class="text-field_input" type="text" id="adress">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="text-field text-field_first">
+                                <label class="text-field_label" for="city">City</label>
+                                <input class="text-field_input" type="text" id="city">
+                            </div>
+                            <div class="text-field text-field_first">
+                                <label class="text-field_label" for="country">Country</label>
+                                <input class="text-field_input" type="text" id="country">
+                            </div>
+                            <div class="text-field text-field_first">
+                                <label class="text-field_label" for="postalCode">Postal Code</label>
+                                <input class="text-field_input" type="text" id="postalCode">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="text-field text-field_fifth">
+                                <label class="text-field_label" for="aboutMe">About Me</label>
+                                <textarea class="text-field_input" name="aboutme" id="aboutMe" cols="300" rows="2"></textarea>
+                            </div>
+                        </div>
+                        <div class="button">
+                            <button type="submit">Update Profile</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="foto">
+                <div class="foto-img">
+                    <img src="images/user_foto.jpg" alt="">
+                </div>
+                <div class="foto-text">
+                    <p>CEO / CO-FOUNDER</p>
+                    <h4>Alec Thompson</h4>
+                    <p>Don't be scared of the truth because we need
+                        to restart the human foundation in truth And I
+                        love you like Kanye loves Kanye I love Rick
+                        Owens’ bed design but the back is...</p>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <ul class="footer-menu">
+            <li>
+                <a href="#">about</a>
+            </li>
+            <li>
+                <a href="#">blog</a>
+            </li>
+            <li>
+                <a href="#">licenses</a>
+            </li>
+        </ul>
+        <div class="footer-year">
+            <p>2019 - made with love</p>
+        </div>
+    </footer>
+</body>
+</html>
